@@ -4,7 +4,7 @@ Sort out some saliency methods (**2D RGB, 2D RGB-D, 360 RGB, Video SOD**) and su
 
 ## Keywords
 
-**`obd.`** : Object Detection    **`sod.`** : SOD    **`seg.`** : segmentation    **`depe.`** : Depth Estimation    **`rgbd.`** : RGB-D     **`360. `** : 360° image    **`suv.`** : survey
+**`obd.`** : Object Detection      **`sod.`** : SOD      **`seg.`** : segmentation      **`depe.`** : Depth Estimation      **`rgbd.`** : RGB-D       **`360. `** : 360° image      **`suv.`** : survey
 
 ## Papers
 
