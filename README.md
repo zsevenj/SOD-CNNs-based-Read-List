@@ -4,7 +4,7 @@ Sort out some saliency methods (**2D RGB, 2D RGB-D, 360 RGB, Video SOD**) and su
 
 ## Keywords
 
-**`obd.`** : Object Detection      **`sod.`** : SOD      **`seg.`** : segmentation      **`depe.`** : Depth Estimation      **`rgbd.`** : RGB-D       **`360. `** : 360° image      **`suv.`** : survey
+**`obd.`** : Object Detection    **`sod.`** : SOD    **`seg.`** : segmentation    **`depe.`** : Depth Estimation    **`rgbd.`** : RGB-D     **`360. `** : 360° image    **`suv.`** : survey
 
 ## Papers
 
@@ -67,7 +67,12 @@ Sort out some saliency methods (**2D RGB, 2D RGB-D, 360 RGB, Video SOD**) and su
   * Salient Object Detection
     * [[360-SOD](http://cvteam.net/projects/JSTSP20_DDS/DDS.html)] : indoor & outdoor, 400 training images and 100 test images. ([Details](https://ieeexplore.ieee.org/document/8926489/))
     * [[F-360iSOD](https://github.com/PanoAsh/F-360iSOD)] : The F-360iSOD is a small-scale 360◦ dataset with totally 107 panoramic images collected from Stanford360 [1] and Salient!360 [2] which contain 85 and 22 equirectangular images, respectively. ([Details](https://arxiv.org/abs/2001.07960))
-* 2D（待补充整理）
+  * (pending)
+    * Matterport3D : ([Details](https://arxiv.org/abs/1709.06158))
+    * Stanford2D3D : ([Details](https://arxiv.org/abs/1702.01105))
+    * PanoSUNCG : ([Details](https://arxiv.org/abs/1811.05304))
+    * 360D : ([Details](https://arxiv.org/abs/1807.09620))
+* 2D（pending）
   * [[MSRA10K]( https://mmcheng.net/msra10k/)] : formally named as THUS10000; 195MB: images + binary masks. Pixel accurate salient object labeling for 10000 images from MSRA dataset.
   * [[THUR15K](https://mmcheng.net/code-data/)] : 15000 images.
   * [[ECSSD](https://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html)] : 1000 images.
