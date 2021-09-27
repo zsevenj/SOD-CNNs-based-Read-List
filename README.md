@@ -63,7 +63,7 @@ Sort out some saliency methods (**2D RGB, 2D RGB-D, 360 RGB, Video SOD**) and su
 * 360°
   * Fixation Prediction
     * [[Salient!360](https://salient360.ls2n.fr/datasets/toolbox/)] : indoor & outdoor, 85 images. ([Details](https://hal.archives-ouvertes.fr/hal-01994923/document))
-    * [[Stanford360](https://vsitzmann.github.io/vr-saliency/ )] : indoor & outdoor, 12 images. ([Details](file:///C:/Users/17658/Zotero/storage/VNP72W3E/8269807.html))
+    * [[Stanford360](https://vsitzmann.github.io/vr-saliency/ )] : indoor & outdoor, 12 images. ([Details](https://ieeexplore.ieee.org/document/8269807))
   * Salient Object Detection
     * [[360-SOD](http://cvteam.net/projects/JSTSP20_DDS/DDS.html)] : indoor & outdoor, 400 training images and 100 test images. ([Details](https://ieeexplore.ieee.org/document/8926489/))
     * [[F-360iSOD](https://github.com/PanoAsh/F-360iSOD)] : The F-360iSOD is a small-scale 360◦ dataset with totally 107 panoramic images collected from Stanford360 [1] and Salient!360 [2] which contain 85 and 22 equirectangular images, respectively. ([Details](https://arxiv.org/abs/2001.07960))
