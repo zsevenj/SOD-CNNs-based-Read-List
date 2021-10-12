@@ -11,7 +11,7 @@ Sort out some saliency methods (**2D RGB, 2D RGB-D, 360 RGB, Video SOD**) and su
 ### 2015
 
 | NO.  |  Keyword   | Title                                                        |                          Paper                           |                         Code                         |
-| :--: | :--------: | :------------------------------------------------------------ | :------------------------------------------------------: | :--------------------------------------------------: |
+| :--: | :--------: | ------------------------------------------------------------ | :------------------------------------------------------: | :--------------------------------------------------: |
 |  01  | **`suv.`** | What is a Salient Object? A Dataset and a Baseline Model for Salient Object Detection | [IEEE TIP](http://ieeexplore.ieee.org/document/6990522/) |                          -                           |
 |  02  | **`suv.`** | Salient Object Detection: A Benchmark                        | [IEEE TIP](http://ieeexplore.ieee.org/document/7293665/) | [C++ & Matlab]( http://mmcheng.net/salobjbenchmark/) |
 
@@ -41,22 +41,23 @@ Sort out some saliency methods (**2D RGB, 2D RGB-D, 360 RGB, Video SOD**) and su
 ### 2020
 
 | NO.  |      Keywords      | Title                                                        |                          Paper                           |                           Code                           |
-| :--: | :----------------: | :------------------------------------------------------------ | :------------------------------------------------------: | :------------------------------------------------------: |
+| :--: | :----------------: | :----------------------------------------------------------- | :------------------------------------------------------: | :------------------------------------------------------: |
 |  01  | **`depe.` `360.`** | BiFuse: Monocular 360 Depth Estimation via Bi-Projection Fusion |  [CVPR](https://ieeexplore.ieee.org/document/9157424/)   |    [PyTorch](https://github.com/Yeh-yu-hsuan/BiFuse)     |
 |  02  |     **`360.`**     | SalBiNet360: Saliency Prediction on 360° Images with Local-Global Bifurcated Deep Network | [IEEE VR](https://ieeexplore.ieee.org/document/9089519/) |                            -                             |
 |  03  | **`sod.` `360.`**  | Distortion-Adaptive Salient Object Detection in 360∘ Omnidirectional Images |  [IEEE](https://ieeexplore.ieee.org/document/8926489/)   | [Caffe](http://cvteam.net/projects/JSTSP20_DDS/DDS.html) |
+|  04  | **`sod.` `360.`**  | Stage-wise Salient Object Detection in 360° Omnidirectional Image via Object-level Semantical Saliency Ranking |  [IEEE](https://ieeexplore.ieee.org/document/9199564/)   |     [PyTorch](https://github.com/360-SSOD/download)      |
 
 ### 2021
 
-| NO.  |        Keywords        | Title                                                        |                            Paper                             |                            Code                             |
-| :--: | :--------------------: | :------------------------------------------------------------ | :----------------------------------------------------------: | :---------------------------------------------------------: |
-|  01  | **`rgbd.`** **`sod.`** | Calibrated RGB-D Salient Object Detection                    | [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Ji_Calibrated_RGB-D_Salient_Object_Detection_CVPR_2021_paper.html) |         [PyTorch](https://github.com/jiwei0921/DCF)         |
-|  02  |      **`rgbd.`**       | Deep RGB-D Saliency Detection with Depth-Sensitive Attention and Automatic Multi-Modal Fusion |           [CVPR](http://arxiv.org/abs/2103.11832)            |                              -                              |
-|  03  |      **`rgbd.`**       | Uncertainty Inspired RGB-D Saliency Detection                |     [CVPR](https://ieeexplore.ieee.org/document/9405467)     |      [PyTorch](https://github.com/JingZhang617/UCNet)       |
-|  04  |   **`depe.` `360.`**   | HoHoNet: 360 Indoor Holistic Understanding with Latent Horizontal Features |           [CVPR](https://arxiv.org/abs/2011.11498)           |      [PyTorch](https://github.com/sunset1995/HoHoNet)       |
-|  05  |   **`depe.` `360.`**   | UniFuse: Unidirectional Fusion for 360$^{\circ}$ Panorama Depth Estimation |           [CVPR](http://arxiv.org/abs/2102.03550)            |                           [PyTorch](https://github.com/alibaba/UniFuse-Unidirectional-Fusion)                            |
-|  06  |       **`seg.`**       | Fully Convolutional Networks for Panoptic Segmentation       |           [CVPR](https://arxiv.org/abs/2012.00720)           | [Detectron2](https://github.com/dvlab-research/PanopticFCN) |
-|  07  |       **`360.`**       | 一种立体全景图像显著性检测模型                               | [激光与光电子学进展](http://www.opticsjournal.net/Articles/Abstract?aid=OJ1c8876d8937c381e) |                              -                              |
+| NO.  |        Keywords        | Title                                                        |                            Paper                             |                             Code                             |
+| :--: | :--------------------: | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|  01  | **`rgbd.`** **`sod.`** | Calibrated RGB-D Salient Object Detection                    | [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Ji_Calibrated_RGB-D_Salient_Object_Detection_CVPR_2021_paper.html) |         [PyTorch](https://github.com/jiwei0921/DCF)          |
+|  02  |      **`rgbd.`**       | Deep RGB-D Saliency Detection with Depth-Sensitive Attention and Automatic Multi-Modal Fusion |           [CVPR](http://arxiv.org/abs/2103.11832)            |                              -                               |
+|  03  |      **`rgbd.`**       | Uncertainty Inspired RGB-D Saliency Detection                |     [CVPR](https://ieeexplore.ieee.org/document/9405467)     |       [PyTorch](https://github.com/JingZhang617/UCNet)       |
+|  04  |   **`depe.` `360.`**   | HoHoNet: 360 Indoor Holistic Understanding with Latent Horizontal Features |           [CVPR](https://arxiv.org/abs/2011.11498)           |       [PyTorch](https://github.com/sunset1995/HoHoNet)       |
+|  05  |   **`depe.` `360.`**   | UniFuse: Unidirectional Fusion for 360$^{\circ}$ Panorama Depth Estimation |           [CVPR](http://arxiv.org/abs/2102.03550)            | [PyTorch](https://github.com/alibaba/UniFuse-Unidirectional-Fusion) |
+|  06  |       **`seg.`**       | Fully Convolutional Networks for Panoptic Segmentation       |           [CVPR](https://arxiv.org/abs/2012.00720)           | [Detectron2](https://github.com/dvlab-research/PanopticFCN)  |
+|  07  |       **`360.`**       | 一种立体全景图像显著性检测模型                               | [激光与光电子学进展](http://www.opticsjournal.net/Articles/Abstract?aid=OJ1c8876d8937c381e) |                              -                               |
 
 ## Datasets
 
@@ -66,7 +67,9 @@ Sort out some saliency methods (**2D RGB, 2D RGB-D, 360 RGB, Video SOD**) and su
     * [[Stanford360](https://vsitzmann.github.io/vr-saliency/ )] : indoor & outdoor, 12 images. ([Details](https://ieeexplore.ieee.org/document/8269807))
   * Salient Object Detection
     * [[360-SOD](http://cvteam.net/projects/JSTSP20_DDS/DDS.html)] : indoor & outdoor, 400 training images and 100 test images. ([Details](https://ieeexplore.ieee.org/document/8926489/))
-    * [[F-360iSOD](https://github.com/PanoAsh/F-360iSOD)] : The F-360iSOD is a small-scale 360◦ dataset with totally 107 panoramic images collected from Stanford360 and Salient!360 which contain 85 and 22 equirectangular images, respectively. ([Details](https://arxiv.org/abs/2001.07960))
+    * [[F-360iSOD](https://github.com/PanoAsh/F-360iSOD)] : The F-360iSOD is a small-scale 360◦ dataset with totally 107 panoramic images collected from Stanford360 [1] and Salient!360 [2] which contain 85 and 22 equirectangular images, respectively. ([Details](https://arxiv.org/abs/2001.07960))
+    * [[360-SSOD](https://github.com/360-SSOD/download)] : construct a novel dataset containing 1,105 360° omnidirectional images with pixel-wise saliency annotations; to thebest of our knowledge, this is the largest dataset for the 360° SOD problem.([Details](https://ieeexplore.ieee.org/document/9199564))
+    * [[ASOD60K](https://github.com/PanoAsh/ASOD60K)] : To facilitate the study of panoramic video salient object detection (PV-SOD), collect ASOD60K, the first large-scale PV-SOD dataset providing professional annotations, which consists of 62,455 high-resolution (4K) video frames from 67 carefully selected 360° panoramic video sequences. 10,465 key frames are annotated with rich labels, namely, super-class, sub-class, attributes, HM data, eye fifixations, bounding boxes, object masks, and instance masks. ([Details](file:///C:/Users/17658/Zotero/storage/LNIQRX9F/2107.html))
   * (pending)
     * Matterport3D : ([Details](https://arxiv.org/abs/1709.06158))
     * Stanford2D3D : ([Details](https://arxiv.org/abs/1702.01105))
