@@ -6,29 +6,33 @@ Sort out some saliency methods (**2D RGB, 2D RGB-D, 360 RGB, Video SOD**) and su
 
 **`obd.`** : Object Detection    **`sod.`** : SOD    **`seg.`** : segmentation    **`depe.`** : Depth Estimation    **`rgbd.`** : RGB-D     **`360. `** : 360° image    **`suv.`** : survey
 
+**`com.`** : compression    **`eval. `** : evaluate metrics
+
 ## Papers
 
 ### 2015
 
-| NO.  |  Keyword   | Title                                                        |                          Paper                           |                         Code                         |
-| :--: | :--------: | ------------------------------------------------------------ | :------------------------------------------------------: | :--------------------------------------------------: |
-|  01  | **`suv.`** | What is a Salient Object? A Dataset and a Baseline Model for Salient Object Detection | [IEEE TIP](http://ieeexplore.ieee.org/document/6990522/) |                          -                           |
-|  02  | **`suv.`** | Salient Object Detection: A Benchmark                        | [IEEE TIP](http://ieeexplore.ieee.org/document/7293665/) | [C++ & Matlab]( http://mmcheng.net/salobjbenchmark/) |
+| NO.  |  Keyword   | Title                                                        |                        Paper                         |                         Code                         |
+| :--: | :--------: | ------------------------------------------------------------ | :--------------------------------------------------: | :--------------------------------------------------: |
+|  01  | **`suv.`** | What is a Salient Object? A Dataset and a Baseline Model for Salient Object Detection | [IEEE](http://ieeexplore.ieee.org/document/6990522/) |                          -                           |
+|  02  | **`suv.`** | Salient Object Detection: A Benchmark                        | [IEEE](http://ieeexplore.ieee.org/document/7293665/) | [C++ & Matlab]( http://mmcheng.net/salobjbenchmark/) |
 
 ### 2017
 
-| NO.  |  Keywords  | Title                                                        |                        Paper                         |                             Code                             |
-| :--: | :--------: | :----------------------------------------------------------- | :--------------------------------------------------: | :----------------------------------------------------------: |
-|  01  | **`obd.`** | Feature Pyramid Networks for Object Detection                | [CVPR](https://ieeexplore.ieee.org/document/8099589) |                              -                               |
-|  02  | **`seg.`** | DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs | [IEEE](https://ieeexplore.ieee.org/document/7913730) | [Tensorflow](http://liangchiehchen.com/projects/DeepLab.html) |
-|  03  |     -      | Look around you: Saliency maps for omnidirectional images in VR applications | [IEEE](http://ieeexplore.ieee.org/document/7965634/) |                              -                               |
+| NO.  |   Keywords   | Title                                                        |                        Paper                         |                             Code                             |
+| :--: | :----------: | :----------------------------------------------------------- | :--------------------------------------------------: | :----------------------------------------------------------: |
+|  01  |  **`obd.`**  | Feature Pyramid Networks for Object Detection                | [CVPR](https://ieeexplore.ieee.org/document/8099589) |                              -                               |
+|  02  |  **`seg.`**  | DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs | [IEEE](https://ieeexplore.ieee.org/document/7913730) | [Tensorflow](http://liangchiehchen.com/projects/DeepLab.html) |
+|  03  |      -       | Look around you: Saliency maps for omnidirectional images in VR applications | [IEEE](http://ieeexplore.ieee.org/document/7965634/) |                              -                               |
+|  04  | **`eval. `** | Structure-measure: A New Way to Evaluate Foreground Maps     |       [IEEE](https://arxiv.org/abs/1708.00786)       | [MatLab](https://github.com/DengPingFan/S-measure) / [Python](https://github.com/zzhanghub/eval-co-sod) |
 
 ### 2018
 
-| NO.  |     Keywords      | Title                                        |                            Paper                             |                             Code                             |
-| :--: | :---------------: | :-------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  01  | **`obd.` `360.`** | Object Detection in Equirectangular Panorama |           [CVPR](https://arxiv.org/abs/1805.08009)           |                              -                               |
-|  02  |    **`360.`**     | Saliency Detection in 360° Videos            | [ECCV](http://link.springer.com/10.1007/978-3-030-01234-2_30) | [PyTorch](https://github.com/xuyanyu-shh/Saliency-detection-in-360-video) |
+| NO.  |     Keywords      | Title                                                        |                            Paper                             |                             Code                             |
+| :--: | :---------------: | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|  01  | **`obd.` `360.`** | Object Detection in Equirectangular Panorama                 |           [CVPR](https://arxiv.org/abs/1805.08009)           |                              -                               |
+|  02  |    **`360.`**     | Saliency Detection in 360° Videos                            | [ECCV](http://link.springer.com/10.1007/978-3-030-01234-2_30) | [PyTorch](https://github.com/xuyanyu-shh/Saliency-detection-in-360-video) |
+|  03  |   **`eval. `**    | Enhanced-alignment Measure for Binary Foreground Map Evaluation |      [IJCAI](https://www.ijcai.org/proceedings/2018/97)      |      [MatLab](https://github.com/DengPingFan/E-measure)      |
 
 ### 2019
 
@@ -46,6 +50,7 @@ Sort out some saliency methods (**2D RGB, 2D RGB-D, 360 RGB, Video SOD**) and su
 |  02  |     **`360.`**     | SalBiNet360: Saliency Prediction on 360° Images with Local-Global Bifurcated Deep Network | [IEEE VR](https://ieeexplore.ieee.org/document/9089519/) |                            -                             |
 |  03  | **`sod.` `360.`**  | Distortion-Adaptive Salient Object Detection in 360∘ Omnidirectional Images |  [IEEE](https://ieeexplore.ieee.org/document/8926489/)   | [Caffe](http://cvteam.net/projects/JSTSP20_DDS/DDS.html) |
 |  04  | **`sod.` `360.`**  | Stage-wise Salient Object Detection in 360° Omnidirectional Image via Object-level Semantical Saliency Ranking |  [IEEE](https://ieeexplore.ieee.org/document/9199564/)   |     [PyTorch](https://github.com/360-SSOD/download)      |
+|  05  | **`sod.` `360.`**  | FANet: Features Adaptation Network for 360° Omnidirectional Salient Object Detection |   [IEEE](https://ieeexplore.ieee.org/document/9211754)   |     [PyTorch](https://github.com/DreaMKHuang/FANet)      |
 
 ### 2021
 
@@ -58,6 +63,7 @@ Sort out some saliency methods (**2D RGB, 2D RGB-D, 360 RGB, Video SOD**) and su
 |  05  |   **`depe.` `360.`**   | UniFuse: Unidirectional Fusion for 360$^{\circ}$ Panorama Depth Estimation |           [CVPR](http://arxiv.org/abs/2102.03550)            | [PyTorch](https://github.com/alibaba/UniFuse-Unidirectional-Fusion) |
 |  06  |       **`seg.`**       | Fully Convolutional Networks for Panoptic Segmentation       |           [CVPR](https://arxiv.org/abs/2012.00720)           | [Detectron2](https://github.com/dvlab-research/PanopticFCN)  |
 |  07  |       **`360.`**       | 一种立体全景图像显著性检测模型                               | [激光与光电子学进展](http://www.opticsjournal.net/Articles/Abstract?aid=OJ1c8876d8937c381e) |                              -                               |
+|  08  | **`com.`** **`360.`**  | OSLO: On-the-Sphere Learning for Omnidirectional images and its application to 360-degree image compression |        [arxiv](https://arxiv.org/pdf/2107.09179.pdf)         |                              -                               |
 
 ## Datasets
 
